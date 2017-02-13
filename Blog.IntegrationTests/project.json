@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0-*",
+  "testRunner": "mstest",
+  "dependencies": {
+    "Blog.Models": "1.0.0-*",
+    "Blog.Services": "1.0.0-*",
+    "dotnet-test-mstest": "1.1.1-preview",
+    "Microsoft.AspNetCore.Mvc.ViewFeatures": "1.0.0",
+    "Microsoft.Extensions.Logging.Abstractions": "1.0.0",
+    "Microsoft.NETCore.App": "1.0.1",
+    "MSTest.TestFramework": "1.0.3-preview"
+  },
+
+  "frameworks": {
+    "netcoreapp1.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "version": "1.0.0",
+          "type": "platform"
+        }
+      },
+      "imports": [
+        "dnxcore50",
+        "portable-net452+win81"
+      ]
+    }
+  }
+}
